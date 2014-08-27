@@ -1,0 +1,31 @@
+d_archontopouloi = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	graphical_culture = orthodoxholygfx
+
+	capital = 496 # Uppland
+	allow = {
+		has_global_flag = archontopouloi_founded
+			
+		}
+	# Parent Religion 
+	religion = orthodox
+	
+	culture = greek
+	
+	mercenary = yes
+
+	title = "ARCHON"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	strength_growth_per_century = 0.05
+	
+	mercenary_type = archontopouloi_composition
+}
